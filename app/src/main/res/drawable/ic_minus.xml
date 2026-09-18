@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Exported from Figma: Vista Tiempo de Preparación > stepper > minus. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="18dp"
+    android:height="18dp"
+    android:viewportWidth="18"
+    android:viewportHeight="18">
+    <path
+        android:strokeColor="#F9EBE0"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M3.74939 9H14.2506" />
+</vector>

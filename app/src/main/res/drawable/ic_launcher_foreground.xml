@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The Permisos screen logo, sized to the 72dp visible area of the 108dp adaptive icon (18/108 inset). -->
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/logo_smartwake"
+    android:inset="16.667%" />

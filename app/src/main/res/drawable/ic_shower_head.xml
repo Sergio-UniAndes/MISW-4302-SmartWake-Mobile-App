@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Exported from Figma: Vista Tiempo de Preparación > task-card > shower-head. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="20dp"
+    android:height="20dp"
+    android:viewportWidth="20"
+    android:viewportHeight="20">
+    <path
+        android:strokeColor="#F9EBE0"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M3.33401 3.33398L5.41714 5.41737M11.25 5.41704C10.4738 4.65634 9.4289 4.2327 8.34222 4.23819C7.25554 4.24368 6.21494 4.67785 5.44653 5.44636C4.67812 6.21486 4.24401 7.2556 4.23852 8.34241C4.23303 9.42922 4.65661 10.4743 5.41722 11.2505M12.4998 4.16734L4.16726 12.5009M11.6665 14.1676V14.1759M8.33351 13.3342V13.3426M10.8333 10.8342V10.8425M13.333 8.33411V8.34244M9.16676 16.6677V16.676M14.1663 11.6675V11.6759M16.666 9.16746V9.1758" />
+</vector>

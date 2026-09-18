@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Exported from Figma: Vista Ubicaciones > List Item > arrow_right (Material 3 Design Kit). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="20dp"
+    android:height="20dp"
+    android:viewportWidth="20"
+    android:viewportHeight="20">
+    <path
+        android:fillColor="#FF8F4F"
+        android:pathData="M8.33337 14.1666V5.83325L12.5 9.99992L8.33337 14.1666Z" />
+</vector>

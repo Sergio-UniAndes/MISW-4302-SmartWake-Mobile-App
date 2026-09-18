@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">SmartWake</string>
+    <string name="logo_description">Logo de SmartWake</string>
+    <string name="accion_volver">Volver</string>
+    <string name="accion_cancelar">Cancelar</string>
+    <string name="accion_confirmar">Confirmar</string>
+    <string name="minutos">%1$d min</string>
+    <string name="minutos_unidad">min</string>
+
+    <!-- Vista Permisos -->
+    <string name="permisos_titulo">Permisos necesarios</string>
+    <string name="permisos_intro">Para que SmartWake funcione correctamente, necesitamos acceso a algunas funciones de tu dispositivo.</string>
+    <string name="permiso_ubicacion_titulo">Ubicación precisa</string>
+    <string name="permiso_ubicacion_descripcion">Necesaria para ajustar las alarmas según la hora local y el clima de tu área, asegurando que te despiertes con la información más relevante para tu día.</string>
+    <string name="permiso_alarmas_titulo">Alarmas exactas</string>
+    <string name="permiso_alarmas_descripcion">Esencial para que la aplicación pueda programar notificaciones y sonidos que te despierten a la hora exacta que configures, sin retrasos del sistema.</string>
+    <string name="permisos_empezar">Empezar</string>
+
+    <!-- Vista Lista Vacía / Vista Lista Alarmas -->
+    <string name="lista_titulo">SmartWake</string>
+    <string name="lista_id_dispositivo">ID: SW-4829</string>
+    <string name="lista_vacia_titulo">No tienes alarmas configuradas</string>
+    <string name="lista_vacia_texto">Comienza tu rutina creando una nueva alarma para despertar de forma natural y relajada.</string>
+    <string name="lista_nueva_alarma">Nueva alarma</string>
+    <string name="alarma_eliminar">Eliminar alarma</string>
+    <string name="alarma_activa">Alarma activa</string>
+    <string name="alarma_llegada">Llegada: %1$s</string>
+    <string name="alarma_ajuste_trafico">Ajuste por tráfico: +%1$d min</string>
+    <string name="alarma_repite">Se repite: %1$s</string>
+    <string name="alarma_no_repite">No se repite</string>
+
+    <!-- Vista Eliminar Alarma - Dialog -->
+    <string name="eliminar_titulo">¿Eliminar alarma?</string>
+    <string name="eliminar_texto">Esta acción no se puede deshacer.</string>
+    <string name="eliminar_confirmar">Eliminar</string>
+
+    <!-- Vista Crear Nueva Alarma -->
+    <string name="crear_titulo">Nueva Alarma</string>
+    <string name="crear_cerrar">Cerrar</string>
+    <string name="crear_guardar">Guardar</string>
+    <string name="crear_nombre">Nombre de la alarma</string>
+    <string name="crear_ubicaciones">Ubicaciones</string>
+    <string name="crear_origen">Origen</string>
+    <string name="crear_destino">Destino</string>
+    <string name="crear_destino_vacio">Seleccionar destino</string>
+    <string name="crear_llegada">Llegada</string>
+    <string name="crear_prep">Prep.</string>
+    <string name="crear_transporte">Transporte</string>
+    <string name="crear_repetir">Repetir</string>
+    <string name="transporte_bus">Bus</string>
+    <string name="transporte_coche">Coche</string>
+    <string name="transporte_bici">Bicicleta</string>
+    <string name="transporte_a_pie">A pie</string>
+
+    <!-- Vista Hora de Llegada - Dialog -->
+    <string name="hora_llegada_titulo">Hora de llegada</string>
+
+    <!-- Vista Resumen Alarma -->
+    <string name="resumen_barra">SmartWake</string>
+    <string name="resumen_titulo">Resumen de Alarma</string>
+    <string name="resumen_despertar">Despertar</string>
+    <string name="resumen_preparacion">Tiempo de preparación</string>
+    <string name="resumen_salida">Salida</string>
+    <string name="resumen_salida_nota">Activa un recordatorio adicional justo al momento de salir de casa</string>
+    <string name="resumen_viaje">Tiempo de viaje</string>
+    <string name="resumen_llegada">Llegada esperada</string>
+
+    <!-- Vista Ubicaciones -->
+    <string name="ubicaciones_titulo">Seleccionar Ubicación</string>
+    <string name="ubicaciones_buscar">Buscar dirección o lugar...</string>
+    <string name="ubicaciones_favoritas">Mis Ubicaciones Favoritas</string>
+    <string name="ubicaciones_sin_resultados">Ningún lugar coincide con tu búsqueda.</string>
+    <string name="ubicaciones_confirmar">Confirmar Ubicación</string>
+
+    <!-- Vista Tiempo de Preparación -->
+    <string name="prep_titulo">Tiempo de Prep.</string>
+    <string name="prep_tiempo_fijo">Tiempo fijo</string>
+    <string name="prep_establecer">Establecer minutos</string>
+    <string name="prep_restar">Restar 5 minutos</string>
+    <string name="prep_sumar">Sumar 5 minutos</string>
+    <string name="prep_colecciones">Colecciones de tareas</string>
+    <string name="prep_nota">Para agregar nuevas colecciones de tareas personalizadas, puedes hacerlo desde nuestra plataforma web con asesoría personalizada.</string>
+    <string name="prep_listo">Listo</string>
+</resources>
