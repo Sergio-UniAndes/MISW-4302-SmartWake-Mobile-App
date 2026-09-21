@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Exported from Figma: Vista Crear Nueva Alarma > section-repetir > repeat. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="18dp"
+    android:height="18dp"
+    android:viewportWidth="18"
+    android:viewportHeight="18">
+    <path
+        android:strokeColor="#F9EBE0"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M12.75 7.49999L15.75 4.49975L12.75 1.49951M15.75 4.49975H5.25C4.45435 4.49975 3.69129 4.81585 3.12868 5.3785C2.56607 5.94116 2.25 6.70428 2.25 7.49999V8.25005M5.25 10.5002L2.25 13.5005L5.25 16.5007M2.25 13.5005H12.75C13.5456 13.5005 14.3087 13.1844 14.8713 12.6217C15.4339 12.0591 15.75 11.2959 15.75 10.5002V9.75017" />
+</vector>

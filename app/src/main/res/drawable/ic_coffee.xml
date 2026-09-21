@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Exported from Figma: Vista Tiempo de Preparación > task-card > coffee. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="20dp"
+    android:height="20dp"
+    android:viewportWidth="20"
+    android:viewportHeight="20">
+    <path
+        android:strokeColor="#F9EBE0"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M8.33333 1.66602V3.33268M11.6667 1.66602V3.33268M13.3333 6.66602C13.5543 6.66602 13.7663 6.75381 13.9226 6.91009C14.0789 7.06637 14.1667 7.27834 14.1667 7.49935V14.166C14.1667 15.0501 13.8155 15.8979 13.1904 16.523C12.5652 17.1482 11.7174 17.4993 10.8333 17.4993H5.83333C4.94928 17.4993 4.10143 17.1482 3.47631 16.523C2.85119 15.8979 2.5 15.0501 2.5 14.166V7.49935C2.5 7.27834 2.5878 7.06637 2.74408 6.91009C2.90036 6.75381 3.11232 6.66602 3.33333 6.66602H15C15.8841 6.66602 16.7319 7.0172 17.357 7.64233C17.9821 8.26745 18.3333 9.11529 18.3333 9.99935C18.3333 10.8834 17.9821 11.7313 17.357 12.3564C16.7319 12.9815 15.8841 13.3327 15 13.3327H14.1667M5 1.66602V3.33268" />
+</vector>

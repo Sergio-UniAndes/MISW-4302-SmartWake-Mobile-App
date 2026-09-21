@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Exported from Figma: Vista Lista Alarmas > FAB > Icon (Material 3 Design Kit). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="28dp"
+    android:height="28dp"
+    android:viewportWidth="28"
+    android:viewportHeight="28">
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M12.8333 15.1666H5.83333V12.8333H12.8333V5.83325H15.1667V12.8333H22.1667V15.1666H15.1667V22.1666H12.8333V15.1666Z" />
+</vector>

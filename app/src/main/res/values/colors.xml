@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="smartwake_background">#FF1C1917</color>
+    <!-- Same as the logo circle behind the image on the Permisos screen. -->
+    <color name="ic_launcher_background">#FF242D1F</color>
+</resources>

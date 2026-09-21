@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Exported from Figma: Vista Crear Nueva Alarma > section-prep > timer. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="18dp"
+    android:height="18dp"
+    android:viewportWidth="18"
+    android:viewportHeight="18">
+    <path
+        android:strokeColor="#F9EBE0"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M7.50016 1.49951H10.4999M9.00001 10.5002L11.2498 8.25005M14.9994 10.5002C14.9994 13.8142 12.3134 16.5007 9.00001 16.5007C5.68663 16.5007 3.00061 13.8142 3.00061 10.5002C3.00061 7.18626 5.68663 4.49975 9.00001 4.49975C12.3134 4.49975 14.9994 7.18626 14.9994 10.5002Z" />
+</vector>
