@@ -2,6 +2,7 @@ package com.smartwake.app.ui
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.LaunchedEffect
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.compose.dropUnlessResumed
@@ -14,6 +15,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import com.smartwake.app.ui.alarmas.AlarmasScreen
+import com.smartwake.app.ui.alarmas.AlarmFlowScreen
 import com.smartwake.app.ui.crear.CrearAlarmaScreen
 import com.smartwake.app.ui.crear.ResumenAlarmaScreen
 import com.smartwake.app.ui.crear.TiempoPreparacionScreen
@@ -23,6 +25,7 @@ import com.smartwake.app.ui.permisos.PermisosScreen
 object Routes {
     const val PERMISOS = "permisos"
     const val ALARMAS = "alarmas"
+    const val ALARM_FLOW = "flujo_alarma"
     const val CREAR = "crear"
     const val RESUMEN = "resumen"
     const val PREPARACION = "preparacion"
@@ -44,6 +47,8 @@ fun SmartWakeNavHost(
 ) {
     val alarms by viewModel.alarms.collectAsStateWithLifecycle()
     val draft by viewModel.draft.collectAsStateWithLifecycle()
+    val alarmFlow by viewModel.alarmFlow.collectAsStateWithLifecycle()
+    val alarmFlowId by viewModel.alarmFlowId.collectAsStateWithLifecycle()
 
     NavHost(navController = navController, startDestination = Routes.PERMISOS) {
         composable(Routes.PERMISOS) {
@@ -57,6 +62,9 @@ fun SmartWakeNavHost(
             )
         }
         composable(Routes.ALARMAS) {
+            LaunchedEffect(alarmFlow) {
+                if (alarmFlow != null) navController.navigate(Routes.ALARM_FLOW)
+            }
             AlarmasScreen(
                 alarms = alarms,
                 onAddAlarm = dropUnlessResumed {
@@ -66,6 +74,21 @@ fun SmartWakeNavHost(
                 onEnabledChange = viewModel::setEnabled,
                 onDelete = viewModel::delete,
             )
+        }
+        composable(Routes.ALARM_FLOW) {
+            val activeAlarm = alarms.firstOrNull { it.id == alarmFlowId }
+            if (alarmFlow != null && activeAlarm != null) {
+                AlarmFlowScreen(
+                    flow = alarmFlow!!,
+                    alarm = activeAlarm,
+                    onAdvance = viewModel::advanceAlarmFlow,
+                    onFlowChange = viewModel::setAlarmFlow,
+                    onDismiss = {
+                        viewModel.dismissAlarmFlow()
+                        navController.popBackStack()
+                    },
+                )
+            }
         }
         composable(Routes.CREAR) {
             CrearAlarmaScreen(
