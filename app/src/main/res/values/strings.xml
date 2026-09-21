@@ -81,4 +81,20 @@
     <string name="prep_colecciones">Colecciones de tareas</string>
     <string name="prep_nota">Para agregar nuevas colecciones de tareas personalizadas, puedes hacerlo desde nuestra plataforma web con asesoría personalizada.</string>
     <string name="prep_listo">Listo</string>
+
+    <!-- Flujo de alarma activa -->
+    <string name="flujo_sonando_titulo">Es hora de despertar</string>
+    <string name="flujo_sonando_texto">Tu alarma está sonando. La salida está programada para %1$s.</string>
+    <string name="flujo_salida_titulo">Aviso de salida</string>
+    <string name="flujo_salida_texto">Es momento de salir para llegar a tiempo. Tu salida estaba programada para %1$s.</string>
+    <string name="flujo_voz_titulo">Aviso de voz</string>
+    <string name="flujo_voz_texto">Buenos días. Tu alarma de %1$s está lista. Comienza tu rutina con calma.</string>
+    <string name="flujo_post_titulo">Alarma completada</string>
+    <string name="flujo_post_texto">Tu alarma ha terminado. Que tengas un buen día.</string>
+    <string name="flujo_ver_aviso_voz">Escuchar aviso</string>
+    <string name="flujo_detener">Detener alarma</string>
+    <string name="flujo_continuar">Continuar</string>
+    <string name="flujo_finalizar">Finalizar</string>
+    <string name="flujo_salir">Voy a salir</string>
+    <string name="flujo_posponer">Posponer</string>
 </resources>
