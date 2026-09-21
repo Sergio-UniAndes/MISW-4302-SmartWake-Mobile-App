@@ -83,6 +83,7 @@ fun SmartWakeNavHost(
                     alarm = activeAlarm,
                     onAdvance = viewModel::advanceAlarmFlow,
                     onFlowChange = viewModel::setAlarmFlow,
+                    onStop = { viewModel.setAlarmFlow(AlarmFlow.EMPTY) },
                     onDismiss = {
                         viewModel.dismissAlarmFlow()
                         navController.popBackStack()

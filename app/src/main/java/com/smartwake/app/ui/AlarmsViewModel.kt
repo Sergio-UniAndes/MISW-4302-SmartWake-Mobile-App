@@ -71,12 +71,17 @@ class AlarmsViewModel : ViewModel() {
         _alarms.update { list -> list.filterNot { it.id == id } }
     }
 
+    fun finishAlarm(id: Long) {
+        _alarms.update { list -> list.filterNot { it.id == id } }
+        dismissAlarmFlow()
+    }
+
     fun advanceAlarmFlow() {
         _alarmFlow.update { flow ->
             when (flow) {
                 AlarmFlow.RINGING -> AlarmFlow.VOICE_NOTIFICATION
                 AlarmFlow.VOICE_NOTIFICATION -> AlarmFlow.POST_ALARM
-                AlarmFlow.POST_ALARM, AlarmFlow.DEPARTURE, AlarmFlow.UPCOMING, null -> null
+                AlarmFlow.POST_ALARM, AlarmFlow.DEPARTURE, AlarmFlow.UPCOMING, AlarmFlow.EMPTY, null -> null
             }
         }
     }
@@ -120,4 +125,5 @@ enum class AlarmFlow {
     POST_ALARM,
     DEPARTURE,
     UPCOMING,
+    EMPTY,
 }
