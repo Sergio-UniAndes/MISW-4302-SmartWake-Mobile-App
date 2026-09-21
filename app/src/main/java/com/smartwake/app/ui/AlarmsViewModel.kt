@@ -58,7 +58,6 @@ class AlarmsViewModel : ViewModel() {
         val alarm = draft.copy(
             id = nextId++,
             arrival = arrivalAt.toLocalTime(),
-            repeat = false,
         )
         _alarms.update { it + alarm }
     }
